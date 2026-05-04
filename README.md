@@ -8,7 +8,7 @@ Designed with a focus on **clean UI, smooth animations, and professional present
 
 ## 🌐 Live Website
 
-👉 https://your-username.github.io
+👉 https://adeshphadke6311.github.io/Portfolio/
 
 ---
 
@@ -53,8 +53,9 @@ I am a **B.E. Computer Engineering student** passionate about:
 
 ## 📸 Preview
 
-> (Add screenshots if needed)
+### 💻 Dashboard
 
+![Dashboard](dashboard_ss.png)
 ---
 
 ## ⚙️ Setup & Installation
@@ -62,4 +63,4 @@ I am a **B.E. Computer Engineering student** passionate about:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/adeshphadke6311/Portfolio.git
