@@ -2412,7 +2412,47 @@
           font-size: 2rem;
         }
       }
-    </style>
+    
+/* ===== RESPONSIVE PATCH ===== */
+img{max-width:100%;height:auto}
+section{width:100%}
+*{min-width:0}
+
+@media (max-width:1200px){
+.hero,.about,.education,.experience,.skills,.projects,.certificates,.contact{padding-left:3rem!important;padding-right:3rem!important}
+.projects-grid,.certs-grid{grid-template-columns:repeat(2,1fr)!important}
+}
+
+@media (max-width:992px){
+body{cursor:auto!important}
+.cursor,.cursor-follower{display:none!important}
+.hero{grid-template-columns:1fr!important;padding:8rem 2rem 4rem!important;text-align:center!important}
+.hero-right{display:flex!important}
+.about-grid,.edu-grid,.contact-grid{grid-template-columns:1fr!important}
+.skills-grid{grid-template-columns:repeat(2,1fr)!important}
+}
+
+@media (max-width:768px){
+.projects-grid,.certs-grid,.skills-grid{grid-template-columns:1fr!important}
+.hero,.about,.education,.experience,.skills,.projects,.certificates,.contact{padding-left:1.5rem!important;padding-right:1.5rem!important}
+.modal-content,.cert-modal-content{width:95%!important}
+}
+
+@media (max-width:480px){
+html{font-size:14px}
+.hero-name{font-size:2.8rem!important}
+.hero-cta{flex-direction:column!important}
+.btn-primary,.btn-secondary,.btn-share{width:100%;justify-content:center}
+.stats-grid,.edu-stats{grid-template-columns:1fr!important}
+.profile-frame{width:240px!important;height:320px!important}
+}
+
+@media (max-width:360px){
+.hero-name{font-size:2.3rem!important}
+.profile-frame{width:210px!important;height:290px!important}
+}
+
+</style>
   </head>
   <body>
     <!-- CURSOR -->
